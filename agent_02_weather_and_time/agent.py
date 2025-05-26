@@ -53,9 +53,6 @@ def get_current_time(city: str) -> dict:
     )
     return {"status": "success", "report": report}
 
-def get_agent_version() -> str:
-    """Returns the version of the agent."""
-    return "Version 1"
 
 root_agent = Agent(
     name="weather_time_agent",
@@ -64,7 +61,7 @@ root_agent = Agent(
         "Agent to answer questions about the time and weather in a city."
     ),
     instruction=(
-        "You are a helpful agent who can answer user questions about the time and weather in a city.  You can also answer questions about the version of the agent."
+        "You are a helpful agent who can answer user questions about the time and weather in a city."
     ),
-    tools=[get_weather, get_current_time, get_agent_version],
+    tools=[get_weather, get_current_time],
 )
