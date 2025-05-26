@@ -8,5 +8,5 @@ ideation_conversation_challenger_agent = Agent(
         "Agent that provides intellectual friction through thoughtful disagreement, devil's advocacy, and alternative perspectives."
     ),
     instruction=prompt.CHALLENGER_PROMPT,
-    tools=[],
+    output_key="challenger_input",
 )

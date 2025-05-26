@@ -8,5 +8,5 @@ ideation_conversation_anchor_agent = Agent(
         "Agent that keeps track of your core interests, values, and thinking patterns. Ensures conversations remain personally meaningful rather than purely abstract."
     ),
     instruction=prompt.ANCHOR_PROMPT,
-    tools=[],
+    output_key="anchor_input",
 )

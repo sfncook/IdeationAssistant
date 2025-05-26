@@ -10,4 +10,5 @@ ideation_conversation_explorer_agent = Agent(
     ),
     instruction=prompt.EXPLORER_PROMPT,
     tools=[google_search],
+    output_key="explorer_input",
 )

@@ -8,5 +8,5 @@ ideation_conversation_synthesizer_agent = Agent(
         "Agent that connects ideas across topics and time, identifies patterns and contradictions in your thinking, and helps weave disparate threads into coherent insights."
     ),
     instruction=prompt.SYNTHESIZER_PROMPT,
-    tools=[],
+    output_key="synthesizer_input",
 )
