@@ -33,3 +33,7 @@ adk web
 
 6. Open this page in your browser:
    http://localhost:8000/dev-ui
+
+7. Select "ideation" from the dropdown (upper-left corner)
+
+8. Start chatting
