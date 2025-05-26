@@ -1,9 +1,9 @@
 from google.adk.agents import Agent, ParallelAgent, SequentialAgent
 from . import prompt
-from .sub_agents.anchor import ideation_conversation_anchor_agent
-from .sub_agents.challenger import ideation_conversation_challenger_agent
-from .sub_agents.explorer import ideation_conversation_explorer_agent
-from .sub_agents.synthesizer import ideation_conversation_synthesizer_agent
+from .specialist_sub_agents.anchor import ideation_conversation_anchor_agent
+from .specialist_sub_agents.challenger import ideation_conversation_challenger_agent
+from .specialist_sub_agents.explorer import ideation_conversation_explorer_agent
+from .specialist_sub_agents.synthesizer import ideation_conversation_synthesizer_agent
 
 
 parallel_ideation_sub_agents = ParallelAgent(
